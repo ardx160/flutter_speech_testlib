@@ -1,11 +1,13 @@
 name: speech_recognition_example
 description: Demonstrates how to use the speech_recognition plugin.
 
+environment:
+  sdk: '>=2.10.0 <3.0.0'
+
 dependencies:
   flutter:
     sdk: flutter
-  speech_recognition:
-    path: ../
+  speech_recognition: ^0.3.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://www.dartlang.org/tools/pub/pubspec
